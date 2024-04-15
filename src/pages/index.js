@@ -14,8 +14,8 @@ const IndexPage = () => {
       </header>
       <div className="content">
         <p>
-          Strüktür is a Berlin-based association dedicated to forming and expanding the support structures for arts & artists from the geography of Turkey. Its mission lies at the heart of the collective production of migratory and diasporic knowledge and the creation of trans-communal exchange. Through residencies, publications, workshops, and public programs; Strüktür aims to root, grow, and disperse artistic research and diasporic thinking transcending borders, communities, and generations.
-
+          STRÜKTÜR is a Berlin-based association dedicated to forming and expanding the support structures for arts & artists from the geography of Turkey. Its mission lies at the heart of the collective production of migratory and diasporic knowledge and the creation of trans-communal exchange. Through residencies, publications, workshops, and public programs; STRÜKTÜR aims to root, grow, and disperse artistic research and diasporic thinking transcending borders, communities, and generations.
+          <br />  <br />
           Our first open call for an artist in residence and future programs will be announced in June 2024.
         </p>
         <p>
@@ -24,12 +24,11 @@ const IndexPage = () => {
           <a href="mailto:info@struektuer.org">
             info@struektuer.org
           </a> <br />
-
-          Strüktür e.V. <br />
-          Segitzdamm 20 <br />
-          10969 Berlin <br />
-          Instagram @struektuer
-
+     
+          Instagram &nbsp;
+          <a href="https://www.instagram.com/struektuer/">
+            @struektuer
+          </a> <br />
         </p>
         <p>
           Founded by <br />
@@ -42,13 +41,13 @@ const IndexPage = () => {
           Alper Turan <br />
           Prof. Dr. Füsun Türetken
         </p>
-        <p>
+        {/* <p>
           Executive Board <br />
           Prof. Dr. Füsun Türetken <br />
           Gözde Gazioğlu <br />
           Tuna Ortaylı Kazıcı <br />
           Hatice Marx
-        </p>
+        </p> */}
       </div>
     </main>
   )

@@ -20,7 +20,7 @@ const IndexPage = () => {
         </p>
         <p>
 
-          Contact <br />
+          Contact &nbsp;
           <a href="mailto:info@struektuer.org">
             info@struektuer.org
           </a> <br />
@@ -33,13 +33,13 @@ const IndexPage = () => {
         <p>
           Founded by <br />
           Bengisu Çağlayan <br />
-          Gözde Gazioğlu <br />
+          Gözde Gazioğlu (<span>Chair, Board Member</span>)  <br /> 
           Yelta Köm <br />
-          Hatice Marx <br />
-          Tuna Ortaylı Kazıcı <br />
+          Hatice Marx (<span>Board Member</span>) <br /> 
+          Tuna Ortaylı Kazıcı (<span>Treasurer, Board Member</span>) <br /> 
           Vivien Tauchmann <br />
           Alper Turan <br />
-          Prof. Dr. Füsun Türetken
+          Prof. Dr. Füsun Türetken (<span>Chair, Board Member</span>)
         </p>
         {/* <p>
           Executive Board <br />

@@ -1,6 +1,21 @@
+@keyframes iconAnimation {
+    0% {
+      opacity:0;
+    }
+  
+    50% {
+      opacity:1;
+    }
+
+    100% {
+        opacity:0;
+      }
+  }
+
 html {
     // background-color: #ff9d00;
-    background-color: #EBE7DA;
+    background-color: #f4f1e6;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.2;
     // letter-spacing: 0.1rem;
@@ -8,17 +23,57 @@ html {
     // padding: 0.5rem;
     a{
         // text-decoration: none;
-        color: black;
+        color: #000;
+        // color: #feae00;
     }
 
 
     #logo {
         // margin: 2rem 0rem;
+        margin-top: 10vh;
     }
 
-    .icon {
-        margin-bottom: 40vh;
-        width: 18vw;
+    .icons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+        // width: 100vw;
+
+        .icon {
+            // background-color: #feae00;
+            // opacity: 0;
+            max-height: 190px;
+            // position: fixed;
+            top: 0;
+            left: 0;
+            // max-width: 100px;
+            // width: 18vw;
+            // visibility: visible;
+    
+            // animation-name: iconAnimation;
+            animation-iteration-count: infinite;
+            animation-fill-mode: both;
+            // animation-direction: alternate;
+            
+        }
+        
+        @for $i from 1 through 10 {
+            .icon:nth-child(#{$i}n) {
+                // margin-top: -#{$i * 1}rem;
+                animation-delay: #{$i * 1}s;
+                animation-duration: #{$i * 1}s;
+            }
+        }
+    
+        #icon3{
+            top: 10rem;
+            left: 1rem;
+            max-width: 90px;
+            // fill: green;
+            // filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+
+        }
     }
 
     span{
@@ -51,10 +106,16 @@ html {
             width: 100%;
         }
         
+        .icons{
+            justify-content: left;
+        }
+
         .icon {
             margin-bottom: 0rem;
             // height: 100vh;
-            width: 10vw;
+            // width: 10vw;
+            height: 170px;
+
         }
     }
 

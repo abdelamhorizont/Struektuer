@@ -4,6 +4,8 @@
     <style>
       .cls-1 {
         fill: #000;
+        <!-- fill: #f90040; -->
+        <!-- fill: #feae00; -->
         stroke-width: 0px;
       }
     </style>

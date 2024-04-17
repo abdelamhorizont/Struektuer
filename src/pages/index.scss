@@ -115,7 +115,7 @@ html {
         }
 
         div:first-child, div:nth-child(2){
-            border-bottom: 0px;
+            // border-bottom: 0px;
 
         }
     }
@@ -134,7 +134,7 @@ html {
     .content{
         
         div {
-            border-width: 0px;
+            // border-width: 0px;
         }
     }
 
@@ -189,11 +189,11 @@ html {
         display: grid;
         grid-template-columns: 1fr 1fr;
         div{
-            border-width: 1px;
-            border: orange;
+            // border-width: 0px;
+            // border: orange;
             // border-width: 1px;
-            border-right: 0px;
-            border-style: solid;
+            // border-right: 0px;
+            // border-style: solid;
 
             margin: -1px;
             overflow: hidden;

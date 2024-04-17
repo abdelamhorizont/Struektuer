@@ -8,6 +8,7 @@ import icon2 from '../images/icon2.svg'
 import icon3 from '../images/icon3.svg'
 import icon4 from '../images/icon4.svg'
 import icon5 from '../images/icon5.svg'
+import rr from '../images/rr.gif'
 
 // import './reset.scss'
 import './index.scss'
@@ -68,7 +69,7 @@ const IndexPage = () => {
             transition={{ duration: 5 }}
           >
             {rounded}</motion.div> */}
-          <motion.img id="icon4" className="icon" src={items[counter]} alt="Strüktür Icon" />
+          <motion.img id="icon4" className="icon" src={rr} alt="Strüktür Icon" />
           {/* <img id="icon3" className="icon" src={icon3} alt="Strüktür Icon" />
           <img id="icon5" className="icon" src={icon5} alt="Strüktür Icon" />
           <img id="icon2" className="icon" src={icon2} alt="Strüktür Icon" /> */}
@@ -101,7 +102,7 @@ const IndexPage = () => {
             </a> <br />
           </p>
         </div>
-        
+
         <div>
           <p>
             Founded by <br />
@@ -115,6 +116,9 @@ const IndexPage = () => {
             Prof. Dr. Füsun Türetken (<span>Chair, Board Member</span>)
           </p>
         </div>
+        <div></div>
+        {/* <div></div>
+        <div></div> */}
         {/* <p>
           Executive Board <br />
           Prof. Dr. Füsun Türetken <br />

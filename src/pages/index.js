@@ -24,9 +24,9 @@ const IndexPage = () => {
     const interval = setInterval(() => {
       setCounter(counter => counter + 1);
     }, 1000);
-    
+
     counter == items.length && setCounter(0)
-    
+
     return () => {
       clearInterval(interval);
     };
@@ -74,37 +74,47 @@ const IndexPage = () => {
           <img id="icon2" className="icon" src={icon2} alt="Strüktür Icon" /> */}
         </div>
 
-        <img id="logo" src={Logo} alt="Strüktür Logo" />
+        <div>
+          <img id="logo" src={Logo} alt="Strüktür Logo" />
+        </div>
       </header>
       <div className="content">
-        <p>
-          STRÜKTÜR is a Berlin-based association dedicated to forming and expanding the support structures for arts & artists from the geography of Turkey. Its mission lies at the heart of the collective production of migratory and diasporic knowledge and the creation of trans-communal exchange. Through residencies, publications, workshops, and public programs; STRÜKTÜR aims to root, grow, and disperse artistic research and diasporic thinking transcending borders, communities, and generations.
-          <br />  <br />
-          Our first open call for an artist in residence and future programs will be announced in June 2024.
-        </p>
-        <p>
+        <div>
+          <p>
+            STRÜKTÜR is a Berlin-based association dedicated to forming and expanding the support structures for arts & artists from the geography of Turkey. Its mission lies at the heart of the collective production of migratory and diasporic knowledge and the creation of trans-communal exchange. Through residencies, publications, workshops, and public programs; STRÜKTÜR aims to root, grow, and disperse artistic research and diasporic thinking transcending borders, communities, and generations.
+            <br />  <br />
+            Our first open call for an artist in residence and future programs will be announced in June 2024.
+          </p>
+        </div>
 
-          Contact &nbsp;
-          <a href="mailto:info@struektuer.org">
-            info@struektuer.org
-          </a> <br />
+        <div>
+          <p>
 
-          Instagram &nbsp;
-          <a href="https://www.instagram.com/struektuer/">
-            @struektuer
-          </a> <br />
-        </p>
-        <p>
-          Founded by <br />
-          Bengisu Çağlayan <br />
-          Gözde Gazioğlu (<span>Chair, Board Member</span>)  <br />
-          Yelta Köm <br />
-          Hatice Marx (<span>Board Member</span>) <br />
-          Tuna Ortaylı Kazıcı (<span>Treasurer, Board Member</span>) <br />
-          Vivien Tauchmann <br />
-          Alper Turan <br />
-          Prof. Dr. Füsun Türetken (<span>Chair, Board Member</span>)
-        </p>
+            Contact &nbsp;
+            <a href="mailto:info@struektuer.org">
+              info@struektuer.org
+            </a> <br />
+
+            Instagram &nbsp;
+            <a href="https://www.instagram.com/struektuer/">
+              @struektuer
+            </a> <br />
+          </p>
+        </div>
+        
+        <div>
+          <p>
+            Founded by <br />
+            Bengisu Çağlayan <br />
+            Gözde Gazioğlu (<span>Chair, Board Member</span>)  <br />
+            Yelta Köm <br />
+            Hatice Marx (<span>Board Member</span>) <br />
+            Tuna Ortaylı Kazıcı (<span>Treasurer, Board Member</span>) <br />
+            Vivien Tauchmann <br />
+            Alper Turan <br />
+            Prof. Dr. Füsun Türetken (<span>Chair, Board Member</span>)
+          </p>
+        </div>
         {/* <p>
           Executive Board <br />
           Prof. Dr. Füsun Türetken <br />
@@ -113,7 +123,7 @@ const IndexPage = () => {
           Hatice Marx
         </p> */}
       </div>
-    </main>
+    </main >
   )
 }
 

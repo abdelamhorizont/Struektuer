@@ -46,7 +46,7 @@ html {
         div {
             padding: 0.5rem;
             // outline: 1px orange;
-            border: rgb(247, 186, 71);
+            // border: rgb(247, 186, 71);
             // border-style: solid;
             margin: -1px;
 
@@ -111,9 +111,15 @@ html {
         div {
             padding: 0.5rem;
             border: orange;
+            border-width: 1px;
+            border-right: 0px;
             border-style: solid;
             margin: -1px;
             min-height: 30vh;
+        }
+
+        div:first-child, div:nth-child(2){
+            border-bottom: 0px;
 
         }
     }
@@ -141,6 +147,7 @@ html {
         // overflow: hidden;
         div{
             margin: -1px;
+            overflow: hidden;
         }
 
         img {
@@ -179,6 +186,7 @@ html {
         grid-template-columns: 1fr 1fr;
         div{
             margin: -1px;
+            overflow: hidden;
             min-height: 30vh;
         }
         // gap: 20vh 1rem;

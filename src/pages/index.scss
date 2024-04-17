@@ -110,10 +110,6 @@ html {
         
         div {
             padding: 0.5rem;
-            border: orange;
-            border-width: 1px;
-            border-right: 0px;
-            border-style: solid;
             margin: -1px;
             min-height: 30vh;
         }
@@ -132,6 +128,14 @@ html {
 @media screen and (max-width: 720px) {
     .icons {
         height: 35vh;
+    }
+
+
+    .content{
+        
+        div {
+            border-width: 0px;
+        }
     }
 
 }
@@ -185,6 +189,12 @@ html {
         display: grid;
         grid-template-columns: 1fr 1fr;
         div{
+            border-width: 1px;
+            border: orange;
+            // border-width: 1px;
+            border-right: 0px;
+            border-style: solid;
+
             margin: -1px;
             overflow: hidden;
             min-height: 30vh;

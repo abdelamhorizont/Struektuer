@@ -46,8 +46,6 @@ html {
         div {
             padding: 0.5rem;
             // outline: 1px orange;
-            // border: rgb(247, 186, 71);
-            // border-style: solid;
             margin: -1px;
 
         }
@@ -70,7 +68,7 @@ html {
                 // filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(50%) contrast(119%);
     
                 // opacity: 0;
-                max-height: 190px;
+                max-height: 130px;
                 // max-width: 170px;
 
                 // position: fixed;
@@ -112,11 +110,22 @@ html {
             padding: 0.5rem;
             margin: -1px;
             min-height: 30vh;
+            box-sizing: border-box;
+            border: rgb(247, 186, 71);
+            border-style: solid;
+
+            p{
+                margin: 0rem;
+            }
         }
 
         div:first-child, div:nth-child(2){
-            // border-bottom: 0px;
+            border-bottom: 0px;
+        }
 
+        .about{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 100;
         }
     }
 
@@ -134,7 +143,11 @@ html {
     .content{
         
         div {
-            // border-width: 0px;
+            border-width: 1px;
+        }
+
+        .about{
+            font-size: 1.5rem;
         }
     }
 
@@ -188,16 +201,22 @@ html {
     .content {
         display: grid;
         grid-template-columns: 1fr 1fr;
+
         div{
-            // border-width: 0px;
-            // border: orange;
+            border-width: 1px;
+            border: orange;
             // border-width: 1px;
-            // border-right: 0px;
-            // border-style: solid;
+            border-right: 0px;
+            border-style: solid;
 
             margin: -1px;
             overflow: hidden;
             min-height: 30vh;
+        }
+
+
+        .about{
+            font-size: 2rem;
         }
         // gap: 20vh 1rem;
     }

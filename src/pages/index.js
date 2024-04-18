@@ -80,26 +80,15 @@ const IndexPage = () => {
         </div>
       </header>
       <div className="content">
-        <div>
+        <div className="about">
           <p>
             STRÜKTÜR is a Berlin-based association dedicated to forming and expanding the support structures for arts & artists from the geography of Turkey. Its mission lies at the heart of the collective production of migratory and diasporic knowledge and the creation of trans-communal exchange. Through residencies, publications, workshops, and public programs; STRÜKTÜR aims to root, grow, and disperse artistic research and diasporic thinking transcending borders, communities, and generations.
             <br />  <br />
-            Our first open call for an artist in residence and future programs will be announced in June 2024.
           </p>
         </div>
-
         <div>
           <p>
-
-            Contact &nbsp;
-            <a href="mailto:info@struektuer.org">
-              info@struektuer.org
-            </a> <br />
-
-            Instagram &nbsp;
-            <a href="https://www.instagram.com/struektuer/">
-              @struektuer
-            </a> <br />
+            Our first open call for an artist in residence and future programs will be announced in June 2024.
           </p>
         </div>
 
@@ -116,7 +105,22 @@ const IndexPage = () => {
             Prof. Dr. Füsun Türetken (<span>Chair, Board Member</span>)
           </p>
         </div>
-        <div></div>
+
+        <div>
+          <p>
+            Contact &nbsp;
+            <a href="mailto:info@struektuer.org">
+              info@struektuer.org
+            </a> <br />
+
+            Instagram &nbsp;
+            <a href="https://www.instagram.com/struektuer/">
+              @struektuer
+            </a> <br />
+          </p>
+        </div>
+
+        {/* <div></div> */}
         {/* <div></div>
         <div></div> */}
         {/* <p>

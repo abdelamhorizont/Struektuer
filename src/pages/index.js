@@ -86,7 +86,7 @@ const IndexPage = () => {
             <br />  <br />
           </p>
         </div>
-        <div>
+        <div className="call">
           <p>
             Our first open call for an artist in residence and future programs will be announced in June 2024.
           </p>

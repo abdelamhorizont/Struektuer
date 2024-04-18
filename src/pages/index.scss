@@ -136,7 +136,7 @@ html {
 
 @media screen and (max-width: 720px) {
     .icons {
-        height: 35vh;
+        height: 25vh;
     }
 
 
@@ -144,10 +144,17 @@ html {
         
         div {
             border-width: 1px;
+            margin: -1px;
         }
 
         .about{
-            font-size: 1.5rem;
+            font-size: 1.25rem;
+        }
+
+        .call{
+            font-size: 1.25rem;
+            color: orange;
+
         }
     }
 
@@ -217,6 +224,10 @@ html {
 
         .about{
             font-size: 2rem;
+        }
+        .call{
+            font-size: 2rem;
+            color: orange;
         }
         // gap: 20vh 1rem;
     }

@@ -68,7 +68,7 @@ html {
                 // filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(50%) contrast(119%);
     
                 // opacity: 0;
-                max-height: 130px;
+                max-height: 100px;
                 // max-width: 170px;
 
                 // position: fixed;
@@ -137,6 +137,10 @@ html {
 @media screen and (max-width: 720px) {
     .icons {
         height: 25vh;
+
+        .icon{
+            max-height: 100px;
+        }
     }
 
 
@@ -144,6 +148,9 @@ html {
         
         div {
             border-width: 1px;
+            border-right: 0px;
+            border-left: 0px;
+
             margin: -1px;
         }
 

@@ -1,6 +1,7 @@
 import * as React from "react"
 import { useEffect, useState } from "react"
 import { motion, useMotionValue, useTransform, animate } from "framer-motion"
+import { Helmet } from "react-helmet";
 
 import Logo from '../images/logo.svg'
 import icon1 from '../images/icon1.svg'
@@ -53,6 +54,14 @@ const IndexPage = () => {
 
   return (
     <main>
+      <Helmet
+        htmlAttributes={{
+          lang: "en-us",
+        }}
+      >
+        <title>Strüktür</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Helmet>
       <header>
         <div className="icons">
           {/* <motion.img

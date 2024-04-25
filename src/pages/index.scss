@@ -113,14 +113,11 @@ html {
             box-sizing: border-box;
             border: rgb(247, 186, 71);
             border-style: solid;
+            overflow: hidden;
 
             p{
                 margin: 0rem;
             }
-        }
-
-        div:first-child, div:nth-child(2){
-            border-bottom: 0px;
         }
 
         .about{
@@ -147,7 +144,7 @@ html {
     .content{
         
         div {
-            border-width: 1px;
+            border-width: 0.1px;
             border-right: 0px;
             border-left: 0px;
 
